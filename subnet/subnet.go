@@ -19,7 +19,7 @@ import (
 const (
 	registerRetries = 10
 	subnetTTL       = 5 * 60
-	renewMargin     = time.Hour
+	renewMargin     = time.Minute
 )
 
 // etcd error codes
