@@ -18,7 +18,7 @@ import (
 
 const (
 	registerRetries = 10
-	subnetTTL       = 1 * 3600
+	subnetTTL       = 100 * 365 * 24 * 3600
 	renewMargin     = time.Hour
 )
 
